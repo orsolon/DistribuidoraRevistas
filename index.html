@@ -7,6 +7,10 @@
     <link rel="shortcut icon" href="../WIP/assets/imagens/icone.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
     <link rel="stylesheet" href="../WIP/assets/styles/main.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -28,7 +32,7 @@
                         <a class="nav-link text-body" href="#">Contato</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-body" href="#">Sobre nós</a>
+                        <a class="nav-link text-body" href="#" data-toggle="modal" data-target="#modalSobre">Sobre nós</a>
                         </li>
                     </ul>
                 </div>
@@ -41,28 +45,28 @@
         <div class="row">
             <div class="container">   
                 <div class="card-group">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;">
                         <img src="../img3.jpeg" class="card-img-top" alt="palavra-cruzadas">
                         <div class="card-body">
-                        <h5 class="card-title text-center">Venda Varejo</h5>
-                        <p class="card-text text-center">Atendemos na loja física e on line</p>
-                        <a href="#" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#siteModal">Saiba mais</a>
+                        <h5 class="card-title">Venda Varejo</h5>
+                        <p class="card-text">Atendemos na loja física e on line</p>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#siteModal">Saiba mais</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;">
                         <img src="./assets/imagens/img4.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title text-center">Venda Atacado</h5>
-                        <p class="card-text text-center">Temos grande variedade de títulos.</p>
-                        <a href="#" class="btn btn-secondary btn-lg btn-block"data-toggle="modal" data-target="#siteModal">Confira nosso preços</a>
+                        <h5 class="card-title">Venda Atacado</h5>
+                        <p class="card-text">Temos grande variedade de títulos.</p>
+                        <a href="#" class="btn btn-secondary"data-toggle="modal" data-target="#siteModal">Confira nosso preços</a>
                         </div>
                     </div>
-                    <div class="card" style="width: 18rem;">
+                    <div class="card text-center" style="width: 18rem;">
                         <img src="./assets/imagens/img1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title text-center">Consignação</h5>
-                        <p class="card-text text-center">Uma nova atração no seu ponto de venda.</p>
-                        <a href="#consignacao" class="btn btn-secondary btn-lg btn-block "data-toggle="jumbotron" data-target="#id=consignacao">Quero vender Revistas</a>
+                        <h5 class="card-title">Consignação</h5>
+                        <p class="card-text">Uma nova atração no seu ponto de venda.</p>
+                        <a href="#consignacao" class="btn btn-secondary" data-toggle="jumbotron" data-target="#id=consignacao">Quero vender Revistas</a>
                         </div>
                     </div>
                 </div>
@@ -91,10 +95,16 @@
                       </ul>
                     <hr class="my-4">
                     <h4 class="text-center">Como funciona a consignação:</h4>
-                    <h6 class="my-4">Investimento Zero</h6>
-                    <p class="my-2">Fornecemos expositor de acordo com o espaço disponível em sua loja.</p>
-                    <p>A cada 40 dias o vendedor visita sua loja, para fazer a contagem das revistas vendidas e colocar títulos novos. Recebemos apenas pelo que foi efetivamente vendido.</p>
-                    <p>Revistas são isentas de quaisquer imposto(federal, estadual ou municipal)conforme artigo 150, inciso VI da Constituição Federal.</p>
+                    <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dot" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    </svg>Investimento Zero</p>
+                    <p class="my-2"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dot" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    </svg>Fornecemos expositor de acordo com o espaço disponível em sua loja.</p>
+                    <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-dot" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    </svg>A cada 40 dias o vendedor visita sua loja, para fazer a contagem das revistas vendidas e colocar títulos novos. Recebemos apenas pelo que foi efetivamente vendido.</p>
+                    <p><i>Revistas são isentas de quaisquer imposto(federal, estadual ou municipal)conforme artigo 150, inciso VI da Constituição Federal.</i></p>
                     <div class="card">
                         <div class="card-header text-center">
                           Área de Atuação
@@ -122,18 +132,135 @@
                                   </ul>
                                </div>
                             </div>
-                            <p class="text-left mt-1">*consulte as cidades atendidas...</p>
+                            <p class="text-left mt-1"><i>*consulte as cidades atendidas...</i></p>
                             <h3 class="mt-5">Leve para sua loja <span class="badge badge-primary">Revistas</span> e movimente seu negócio! </h3>
                             <h4> Fale conosco e comece a vender revistas em seu estabelicimento, sem a necessidade de qualquer investimento!</h4>
-                          <a href="#" class="btn btn-secondary btn-lg mt-4">Faça seu cadastro</a>
+                          <a href="form.html" class="btn btn-secondary btn-lg mt-4">Faça seu cadastro</a>
                         </div>
                       </div>
                   </div>
             </div>
         </div>
-        
-    </div>
+      </div>
 
+<!-- Footer -->
+<footer>
+  <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #0080ff;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0"></h6>
+        </div>
+        <!-- Grid column -->
+
+      
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold"></h6>
+       
+        <span><img src="assets/imagens/logo_email.png" class="d-inline-block align-top" alt="Logo"></span>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Serviços</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Venda Varejo</a>
+        </p>
+        <p>
+          <a href="#!">Venda Atacado</a>
+        </p>
+        <p>
+          <a href="#!">Consignação para comércio</a>
+        </p>
+        
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Redes Sociais</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="https://www.facebook.com/DistribuidoraDeRevistasELivros" target="_blank">Facebook</a>
+        </p>
+        
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contato</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg>Barra Funda - São Paulo - SP</p>
+        <p>
+         confronto@editoraconfronto.com.br</p>
+        <p>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>(11) 3825-6035</p>
+        <p>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+            <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>(11)94792-9448</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">@2020 Todos os direitos reservados.
+    <a href=""></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</footer>     
 
 <!-- Modal -->
 
@@ -161,6 +288,31 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal sobre -->
+
+<div class="modal fade" id="modalSobre" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sobre nós</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>A Confronto nasceu em 1988 na cidade de São Paulo, onde está estabelecida até o momento. 
+          Nasceu inicialmente como Editora Confronto, publicava somente revistas de artes marciais. 
+          Posteriormente, a Editora decidiu ampliar seu número de leitores e passou a publicar revistas de informática, artesanato, infantis entre outras. 
+          Nos últimos anos estamos somente distribuindo títulos de outras editoras com preços promocionais em pontos alternativos, forma encontrada de levar cultura a todos.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
