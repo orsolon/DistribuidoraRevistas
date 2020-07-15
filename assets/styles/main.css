@@ -1,6 +1,66 @@
-.jumbotron {
-	background-image: url(../imagens/revistas.jpg);
-	object-fit: cover;
-	background:  no-repeat;
 
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
 }
+
+.main-title {
+	color: #444;
+	margin: 0 0 65px 0;
+	font-size: 40px;
+	text-align: center;
+  }
+  
+  .main-title::after {
+	content: "";
+	border-top: 2px solid #333;
+	width: 15%;
+	position: absolute;
+	top: 60px;
+	left: 42.5%;
+  }
+
+.card img{
+	object-fit: cover;
+	/* height: 370px;
+	width:263px ; */
+}
+
+
+#start {
+	background-color: #4169E1;
+	margin-bottom: 40px;
+  }
+  
+  #start .container {
+	padding: 40px 100px;
+  }
+  
+  #start .row {
+	display: block;
+	text-align: center;
+
+  }
+  
+  #start h2 {
+	color:#F0FFFF;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 0;
+	height: 60px;
+	line-height: 60px;
+	letter-spacing: 1px;
+	display: inline;
+  }
+
+  #start p {
+	color: #F0FFFF;
+	font-size: 12px;
+  }
+
+  .modal-body i {
+	  margin-right: 5px;
+	  color:#3CB371;
+	  font-size: 15px;
+  }
