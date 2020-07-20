@@ -5,6 +5,8 @@ h1 {
 	margin-bottom: 30px;
 }
 
+
+
 .main-title {
 	color: #444;
 	margin: 0 0 65px 0;
@@ -64,3 +66,28 @@ h1 {
 	  color:#3CB371;
 	  font-size: 15px;
   }
+
+  /* responsive */
+@media(max-width: 768px) {
+	.card {
+		margin-left: 30px;
+	}
+	.h1 {
+		font-size: 8px;
+	}
+	
+}
+
+@media(max-width: 425px) {
+	.card {
+		margin-left: 30px;
+	}
+
+	.navbar-brand {
+		width: 20%;
+	}
+
+	.h1 {
+		font-size: 8px;
+	}
+}
