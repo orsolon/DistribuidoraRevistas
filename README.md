@@ -6,8 +6,8 @@ Site da Confronto
 
 * The goal was to make the site more modern and attractive, in addition to making the registration part functional that did not work.
 
-## Imagem do antigo site
-![Screenshot antigo site]()
+## Screenshot do antigo site
+![](assets/imagens/antigo_site.png)
 
 ## Technology 
  
