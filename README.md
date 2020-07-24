@@ -1,5 +1,5 @@
 # Distribuidora de Revistas
-Site da Confronto  <http://editoraconfronto.com.br>
+Meu projeto site: <http://editoraconfronto.com.br>
 
 ***
 * O objetivo era transformar o site antigo em algo mais moderno e atraente, além de tornar funcional a parte de cadastro que não funcionava.
