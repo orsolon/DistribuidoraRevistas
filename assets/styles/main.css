@@ -94,28 +94,7 @@ h1 {
 
 }
 
-.construcao_text {
-	display: block;
-	text-align: center;
-	margin-top: 40px;
-}
 
-.construcao {
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	
-}
-
-@media  (max-width: 600px) {
-	.construcao {
-	  width: 50%;
-	  margin: 0 auto
-	}
-	.construcao_text {
-		font-size: 1.5rem;
-	}
-  }
 
 /* .img-200-200 {
 	width: 220px;
