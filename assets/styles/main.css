@@ -5,7 +5,18 @@ h1 {
 	margin-bottom: 30px;
 }
 
+#loja {
+	background-color: #4169E1;
+	border-radius: 10px;
+	margin: 0 10px;
+	color: white;
+	font-weight: bold;
+	transition-duration: 0.4s;
+}
 
+#loja:hover {
+	background-color: #4e525d;
+}
 
 .main-title {
 	color: #444;
